@@ -5,22 +5,21 @@ Steps:<br>1. Take a string as input.<br>
 
 Code(Not mine -  Credit: https://www.sanfoundry.com/c-program-count-words-in-sentence/): 
 
-<br>`#include <stdio.h>
-    
-#include <string.h>
-    void main()
-    {
-    char s[200];
-    int count = 1, i;
-    printf("enter the string\n");
-    scanf("%[^\n]s", s);
-    for (i = 0;s[i] != '\0';i++)
-    {
-    if (s[i] == ' ')
-    count++;    
-    }
-    printf("number of words in given string are: %d\n", count);
-    }`
+<br>#include <stdio.h><br>
+#include <string.h><br>
+    void main()<br>
+    {<br>
+    char s[200];<br>
+    int count = 1, i;<br>
+    printf("enter the string\n");<br>
+    scanf("%[^\n]s", s);<br>
+    for (i = 0;s[i] != '\0';i++)<br>
+    {<br>
+    if (s[i] == ' ')<br>
+    count++;<br>
+    }<br>
+    printf("number of words in given string are: %d\n", count);<br>
+    }<br>
 
  &nbsp;**Warning: Remember to make changes so it won't look plagarised lol**
 <h2>Circular Linked List Program</h2>
