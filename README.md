@@ -1,6 +1,6 @@
 <h1>Counting words in Sentence</h1>
 Steps:<br>1. Take a string as input.<br>
-2. Using for loop search for a empty space in between the words in the string.  
+2. Using for loop search for a empty space in between the words in the string. <br>
 3. Consecutively increment a variable. This variable gives the count of number of words.
 
 Code(Not mine -  Credit: https://www.sanfoundry.com/c-program-count-words-in-sentence/): 
